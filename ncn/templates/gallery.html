@@ -1,0 +1,25 @@
+<!--<div 
+	id="mc-placeholder"
+	ng-hide="showContent"
+	ng-click="showContent=true"
+	class="gallery animated fadeIn">
+</div>-->
+<div 
+	id="mc-main" class="gallery">
+	<div class="animated fadeIn" canvas>
+		<!--<canvas id="canvas" width="700" height="800"></canvas>-->
+	</div>
+	<ul id="mc-main-gallery" style="margin-top:210px;margin-left:10px">
+		<?php for($i=0; $i<count($context->imagesmeta); $i++ ) { ?>
+		<li style="display:inline-block; width:150px; height: 100px; overflow:hidden">
+			<img src="wordpress/wp-content/uploads/<?php echo $context->imagesmeta[$i]['file']?>">
+		</li>
+		<?php } ?>
+	</ul>
+</div>
+<div 
+	id="mc-sub"
+	ng-show="showAside"
+	class="aside-animated">
+
+</div>

@@ -1,0 +1,4 @@
+
+[2013-08-30 10:15:53] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 129, msg: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasd-1' for key 'slug'
+[2013-08-30 10:20:31] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 129, msg: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasd-1' for key 'slug'
+[2013-08-30 10:21:45] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 129, msg: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasd-1' for key 'slug'

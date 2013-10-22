@@ -1,0 +1,2 @@
+
+[2013-10-19 02:27:43] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\GalleryController.php, line: 12, msg: Call to undefined method PostDao::getImages()

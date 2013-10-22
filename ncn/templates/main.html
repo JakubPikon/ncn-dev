@@ -1,0 +1,27 @@
+<div 
+	id="mc-placeholder"
+	ng-hide="showContent"
+	ng-click="showContent=true"
+	class="main animated fadeIn">
+</div>
+<div 
+	id="mc-main">
+	<div 
+		id="mc-main-content"
+		ng-show="showContent" 
+		class="animated fadeIn">
+		<p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
+		
+	</div>
+</div>
+<div 
+	id="mc-sub"
+	ng-show="showAside"
+	class="aside-animated">
+	<ul id="mc-sub-list">
+		<li 
+			ng-repeat="item in asideList">
+			<p ng-click="showListItem(item.href)">{{item.description}}</p>
+		</li>
+	</ul>
+</div>

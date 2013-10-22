@@ -1,0 +1,11 @@
+
+[2013-10-07 22:15:56] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.
+' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'ncn', 'ncn', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): BaseDao->init(Object(Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): MainController->init(Object(Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Context->create('ctl:MainControl...', NULL)
+#6 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php

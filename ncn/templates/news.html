@@ -1,0 +1,57 @@
+<?php
+/*$context->model->postmeta->value = unserialize($context->model->postmeta->value);
+echo '<pre>';
+print_r($context->model->posts);
+echo '</pre>'*/
+?>
+<div 
+	id="mc-main">
+	<div 
+		id="mc-main-content"
+		class="animated fadeIn">
+		<h1>Aktualności</h1>
+		<div id="main-content-articles">
+
+			<article id="first-post">
+				<a href="/" >
+					<div class="image-container">
+
+					</div>
+					<div class="post-content">
+							<header>
+								<h2 class="post-title"><?php echo $context->model->posts[0]['post_title'] ?></h2>
+							</header>
+							<p class="post-content"><?php echo $context->model->posts[0]['post_content'] ?></p>
+					</div>
+				</a>
+			</article>
+
+			<?php for($i=1, $j=count($context->model->posts); $i<$j; $i++) { ?>
+					<article class="content-post">
+						<a href="/" >
+							<div class="image-container">
+
+							</div>
+							
+							<div class="post-content">
+								<header>
+									<h2 class="post-title"><?php echo $context->model->posts[$i]['post_title'] ?></h2>
+								</header>
+							</div>
+						</a>
+					</article>
+			<?php } ?>
+		</div>
+	</div>
+</div>
+<div 
+	id="mc-sub"
+	ng-show="showAside"
+	class="aside-animated">
+	<ul id="mc-sub-list">
+		<li 
+			ng-repeat="item in asideList">
+			<p ng-click="showListItem(item.href)">{{item.description}}</p>
+		</li>
+	</ul>
+</div>

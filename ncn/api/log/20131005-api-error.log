@@ -1,0 +1,106 @@
+
+[2013-10-05 00:42:23] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 33, msg: Call to undefined function get_bloginfo()
+[2013-10-05 00:44:07] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 33, msg: Call to undefined function get_bloginfo()
+[2013-10-05 01:05:02] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: Using $this when not in object context
+[2013-10-05 01:05:17] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: Using $this when not in object context
+[2013-10-05 01:05:39] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: Using $this when not in object context
+[2013-10-05 01:06:00] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:11:15] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:12:00] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 27, msg: Class 'Ncn\Framework\Context' not found
+[2013-10-05 01:12:17] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 39, msg: Call to undefined function get_bloginfo()
+[2013-10-05 01:12:37] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:13:29] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:13:30] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:13:47] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:13:48] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:16:31] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:18:19] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required '' (include_path='.;C:\php\pear')
+[2013-10-05 01:20:00] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 114, msg: Class '\Modulus\Framework\MainController' not found
+[2013-10-05 01:20:12] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:24:55] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:25:24] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:25:25] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:26:55] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:26:56] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:28:23] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:30:42] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 38, msg: Uncaught exception 'Exception' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php:17
+Stack trace:
+#0 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\BaseDao.php(17): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\BaseDao->init(Object(Modulus\Framework\Context))
+#2 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Context->create('dao:PostDao', NULL)
+#3 F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php(8): Modulus\Framework\Context->load('dao:PostDao')
+#4 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(130): Modulus\Framework\MainController->init(Object(Modulus\Framework\Context))
+#5 F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php(75): Modulus\Framework\Cont
+[2013-10-05 01:30:59] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php, line: 12, msg: Call to a member function setView() on a non-object
+[2013-10-05 01:31:24] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\controllers\MainController.php, line: 12, msg: Call to a member function setView() on a non-object
+[2013-10-05 01:32:20] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 118, msg: Cannot access private property Modulus\Framework\MainController::$context
+[2013-10-05 01:33:07] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 118, msg: Cannot access private property Modulus\Framework\MainController::$context
+[2013-10-05 01:33:13] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 118, msg: Cannot access private property Modulus\Framework\MainController::$context
+[2013-10-05 01:33:13] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 118, msg: Cannot access private property Modulus\Framework\MainController::$context
+[2013-10-05 01:33:15] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 118, msg: Cannot access private property Modulus\Framework\MainController::$context
+[2013-10-05 01:33:17] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 118, msg: Cannot access private property Modulus\Framework\MainController::$context
+[2013-10-05 01:33:36] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required 'templates/gallery' (include_path='.;C:\php\pear')
+[2013-10-05 01:34:33] - F:\Documents and Settings\Jakub\Pulpit\ncn\index.php, line: 38, msg: require() [<a href='function.require'>function.require</a>]: Failed opening required 'templates/gallery.html' (include_path='.;C:\php\pear')
+[2013-10-05 01:57:21] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 114, msg: Class '\Modulus\Framework\NewsController' not found
+[2013-10-05 02:34:12] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 114, msg: Class '\Modulus\Framework\GalleryController' not found
+[2013-10-05 02:38:49] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:39:46] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:40:06] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:40:25] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:40:26] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:42:22] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:42:22] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 31, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:43:48] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 37, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:44:30] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 2, msg: Class 'BaseDao' not found
+[2013-10-05 02:44:54] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\database\PostDao.php, line: 37, msg: Class 'Modulus\Framework\PDO' not found
+[2013-10-05 02:46:40] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\init.php, line: 27, msg: Class 'Modulus\Framework\Context' not found
+[2013-10-05 02:46:59] - F:\Documents and Settings\Jakub\Pulpit\ncn\api\core\Context.php, line: 114, msg: Class '\Modulus\Framework\NewsController' not found

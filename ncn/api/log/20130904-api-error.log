@@ -1,0 +1,32 @@
+
+[2013-09-04 11:16:23] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:16:24] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:17:40] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:17:45] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:18:07] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:18:57] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:20:07] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:25:38] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:26:23] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:26:25] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:29:33] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:34:34] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 59, msg: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tt.parent =0' at line 5
+[2013-09-04 11:34:37] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 59, msg: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tt.parent =0' at line 5
+[2013-09-04 11:36:10] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 59, msg: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2013-09-04 11:36:12] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 59, msg: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2013-09-04 11:36:15] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 59, msg: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2013-09-04 11:36:17] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 59, msg: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2013-09-04 11:36:28] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:36:29] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:36:29] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:36:30] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:36:56] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:37:50] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:39:39] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:45:51] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 11:45:52] - C:\projekty\mediabrowser-plugin\mgallery\api\database\PostDao.php, line: 16, msg: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tr.order' in 'order clause'
+[2013-09-04 12:19:26] - C:\projekty\mediabrowser-plugin\mgallery\api\controllers\AlbumController.php, line: 210, msg: Class 'Modulus\Framework\StdClass' not found
+[2013-09-04 12:20:42] - C:\projekty\mediabrowser-plugin\mgallery\api\controllers\AlbumController.php, line: 210, msg: Class 'Modulus\Framework\StdClass' not found
+[2013-09-04 16:51:17] - C:\projekty\mediabrowser-plugin\mgallery\api\controllers\MediaController.php, line: 49, msg: Call to a member function getTermTaxonomy() on a non-object
+[2013-09-04 16:52:30] - C:\projekty\mediabrowser-plugin\mgallery\api\controllers\MediaController.php, line: 50, msg: Call to a member function getTermTaxonomy() on a non-object
+[2013-09-04 16:57:01] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 156, msg: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'object_id' cannot be null
