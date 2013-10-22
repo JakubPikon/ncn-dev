@@ -1,7 +1,0 @@
-
-[2013-09-06 12:39:13] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 103, msg: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
-[2013-09-06 12:42:03] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 103, msg: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
-[2013-09-06 12:45:05] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 103, msg: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
-[2013-09-06 12:45:11] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 103, msg: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
-[2013-09-06 12:45:20] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 103, msg: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
-[2013-09-06 12:46:11] - C:\projekty\mediabrowser-plugin\mgallery\api\database\TaxonomyDao.php, line: 103, msg: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens

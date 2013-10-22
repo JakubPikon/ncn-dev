@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteBase /
-
-RewriteRule ^$ index.php?c=main&m=index [L]
-RewriteRule ^news$ index.php?c=news&m=get [L]
-RewriteRule ^gallery$ index.php?c=gallery&m=get [L]
